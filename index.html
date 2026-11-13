@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gothic Interactive Gift</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0a090c;
+            --window-bg: #16131a;
+            --border-color: #5c192b;
+            --accent-crimson: #8a1c36;
+            --text-silver: #d8d4de;
+            --gold-muted: #b39b6d;
+        }
+        body {
+            background-color: var(--bg-dark);
+            background-image: radial-gradient(circle at center, #1f141d 0%, #0a090c 100%);
+            color: var(--text-silver);
+            font-family: 'Amiri', serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            gap: 20px;
+        }
+        .gothic-window {
+            background-color: var(--window-bg);
+            border: 2px solid var(--border-color);
+            box-shadow: 0 0 20px rgba(138, 28, 54, 0.3), inset 0 0 15px rgba(0,0,0,0.8);
+            width: 100%;
+            max-width: 400px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .window-header {
+            background: linear-gradient(90deg, #2b0b14, #4a1222, #2b0b14);
+            padding: 8px 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 0.9rem;
+            color: var(--gold-muted);
+        }
+        .window-controls span {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border: 1px solid var(--gold-muted);
+            text-align: center;
+            line-height: 10px;
+            font-size: 10px;
+            margin-right: 4px;
+            cursor: pointer;
+        }
+        .window-body {
+            padding: 20px;
+            text-align: center;
+        }
+        input[type="password"] {
+            background: #0d0b10;
+            border: 1px solid var(--border-color);
+            color: var(--text-silver);
+            padding: 10px;
+            font-size: 1.1rem;
+            text-align: center;
+            width: 70%;
+            margin-bottom: 10px;
+            outline: none;
+        }
+        button {
+            background-color: var(--accent-crimson);
+            color
+      
